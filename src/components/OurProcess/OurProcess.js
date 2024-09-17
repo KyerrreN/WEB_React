@@ -5,7 +5,16 @@ import Right from "../../img/OurProcess/Right.svg";
 import "../OurProcess/OurProcess.css";
 
 class OurProcess extends Component {
+    getItemById = (id) => {
+        const { processes } = this.props;
+        return processes.find((item) => item.id === id);
+    };
+
     render() {
+        const item1 = this.getItemById(1);
+        const item2 = this.getItemById(2);
+        const item3 = this.getItemById(3);
+
         return (
             <div className="container">
                 <div className="our-process-frame to-change-frame">
@@ -30,16 +39,13 @@ class OurProcess extends Component {
                                     id="our-process-content-desc-sketching"
                                     className="to-change-text"
                                 >
-                                    Sketching
+                                    {item1.header}
                                 </span>
                                 <span
                                     id="our-process-content-desc-left"
                                     className="to-change-text"
                                 >
-                                    Wishbone's design process starts with
-                                    detailed sketching, capturing concepts and
-                                    iterating ideas on paper before
-                                    construction.
+                                    {item1.description}
                                 </span>
                             </div>
 
@@ -53,15 +59,13 @@ class OurProcess extends Component {
                                     id="our-process-content-desc-finalizing"
                                     className="to-change-text"
                                 >
-                                    Finalizing
+                                    {item2.header}
                                 </span>
                                 <span
                                     id="our-process-content-desc-middle"
                                     className="to-change-text"
                                 >
-                                    Wishbone carefully finalizes plans, ensuring
-                                    every design element aligns with client
-                                    vision and sustainability goals.
+                                    {item2.description}
                                 </span>
                             </div>
 
@@ -75,15 +79,13 @@ class OurProcess extends Component {
                                     id="our-process-content-desc-building"
                                     className="to-change-text"
                                 >
-                                    Building
+                                    {item3.header}
                                 </span>
                                 <span
                                     id="our-process-content-desc-right"
                                     className="to-change-text"
                                 >
-                                    Wishbone expertly oversees construction,
-                                    translating designs into sustainable,
-                                    functional buildings.
+                                    {item3.description}
                                 </span>
                             </div>
                         </div>

@@ -18,6 +18,27 @@ import Footer from "../Footer/Footer.js";
 
 class Wrapper extends Component {
     render() {
+        const processArray = [
+            {
+                id: 1,
+                header: "Sketching",
+                description:
+                    "Wishbone's design process starts with detailed sketching, capturing concepts and iterating ideas on paper before construction.",
+            },
+            {
+                id: 2,
+                header: "Finalizing",
+                description:
+                    "Wishbone carefully finalizes plans, ensuring every design element aligns with client vision and sustainability goals.",
+            },
+            {
+                id: 3,
+                header: "Building",
+                description:
+                    "Wishbone expertly oversees construction, translating designs into sustainable, functional buildings.",
+            },
+        ];
+
         return (
             <div className="wrapper">
                 <ModalWindow />
@@ -33,7 +54,7 @@ class Wrapper extends Component {
                     productName="REEDING HOUSE"
                     productDescription="Modern, eco-friendly, minimalist design."
                 />
-                <OurProcess />
+                <OurProcess processes={processArray} />
                 <SecondExample
                     productName="THE MARBLE STAIRCASE"
                     productDescription="Elegant marble staircase, architectural centerpiece."
