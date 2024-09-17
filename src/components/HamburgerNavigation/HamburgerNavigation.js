@@ -4,11 +4,11 @@ import "../../css/HamburgerNavigation/HamburgerNavigation.css";
 class HamburgerNavigation extends Component {
     render() {
         return (
-            <nav class="container to-change-frame">
-                <div class="ham-menu">
-                    <span class="to-change-line"></span>
-                    <span class="to-change-line"></span>
-                    <span class="to-change-line"></span>
+            <nav className="container to-change-frame">
+                <div className="ham-menu">
+                    <span className="to-change-line"></span>
+                    <span className="to-change-line"></span>
+                    <span className="to-change-line"></span>
                 </div>
             </nav>
         );

@@ -5,6 +5,7 @@ import ModalWindow from "../ModalWindow/ModalWindow.js";
 import HamburgerMenu from "../HamburgerMenu/HamburgerMenu.js";
 import HamburgerNavigation from "../HamburgerNavigation/HamburgerNavigation.js";
 import Main from "../Main/Main.js";
+import FirmInfo from "../FirmInfo/FirmInfo.js";
 
 class Wrapper extends Component {
     render() {
@@ -15,6 +16,7 @@ class Wrapper extends Component {
                 <HamburgerNavigation />
                 <Header />
                 <Main />
+                <FirmInfo />
             </div>
         );
     }
