@@ -9,6 +9,7 @@ import FirmInfo from "../FirmInfo/FirmInfo.js";
 import FirstExample from "../FirstExample/FirstExample.js";
 import OurProcess from "../OurProcess/OurProcess.js";
 import SecondExample from "../SecondExample/SecondExample.js";
+import Clients from "../Clients/Clients.js";
 
 class Wrapper extends Component {
     render() {
@@ -23,6 +24,7 @@ class Wrapper extends Component {
                 <FirstExample />
                 <OurProcess />
                 <SecondExample />
+                <Clients />
             </div>
         );
     }

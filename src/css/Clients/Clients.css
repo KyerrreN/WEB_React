@@ -1,0 +1,150 @@
+/* ---------------------------------------------------------------------------- */
+/*                                  clients */
+/* ---------------------------------------------------------------------------- */
+.clients-frame {
+    width: 100%;
+    height: 410px;
+    flex-shrink: 0;
+
+    background-color: #403e3b;
+}
+.clients-content {
+    display: inline-flex;
+    padding-right: 144px;
+    align-items: center;
+    gap: 172px;
+
+    position: relative;
+    left: 136px;
+    top: 70px;
+}
+.clients-content-desc {
+    width: 480px;
+    height: 160px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.clients-content-companies {
+    width: 402px;
+    height: 290px;
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 96px;
+    padding-left: 40px;
+}
+
+#clients-content-desc-name {
+    width: 149px;
+    color: #ece7e4;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+#clients-content-desc-header {
+    width: 359px;
+    color: #fff;
+    font-family: Poppins;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 38px;
+}
+#clients-content-desc-text {
+    width: 451px;
+    color: #ece7e4;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+
+    padding-top: 10px;
+}
+/* ---------------------------------------------------------------------------- */
+/*                                  Медиа запросы */
+/* ---------------------------------------------------------------------------- */
+@media (max-width: 1320px) {
+    .container {
+        max-width: 1100px;
+    }
+    /* ---------------------------------------------------------------------------- */
+    /*                                  clients */
+    /* ---------------------------------------------------------------------------- */
+    .clients-content {
+        left: 40px;
+        gap: 70px;
+    }
+}
+@media (max-width: 992px) {
+    .container {
+        max-width: 750px;
+    }
+    /* ---------------------------------------------------------------------------- */
+    /*                                  clients */
+    /* ---------------------------------------------------------------------------- */
+    .clients-frame {
+        height: 680px;
+    }
+    .clients-content-desc {
+        align-items: center;
+    }
+    .clients-content {
+        justify-content: center;
+        flex-direction: column;
+        left: 100px;
+        padding: 0;
+    }
+    .clients-content-companies {
+        width: 500px;
+        gap: 200px;
+    }
+}
+@media (max-width: 767px) {
+    .container {
+        max-width: 420px;
+    }
+    /* ---------------------------------------------------------------------------- */
+    /*                                  clients */
+    /* ---------------------------------------------------------------------------- */
+    .clients-frame {
+        height: 780px;
+        display: flex;
+        justify-content: center;
+    }
+    .clients-content {
+        height: 600px;
+        left: 0;
+        top: 0;
+    }
+    .clients-content-desc {
+        width: 320px;
+    }
+    #clients-content-desc-text {
+        width: 295px;
+        height: 300px;
+    }
+    #clients-content-desc-header {
+        width: 190px;
+    }
+    .clients-content-companies {
+        padding: 0;
+        padding-top: 30px;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        width: 220px;
+        gap: 50px;
+    }
+}
+@media (max-width: 320px) {
+    .container {
+        max-width: none;
+    }
+}
