@@ -28,8 +28,8 @@ class Wrapper extends Component {
                     companyName="Wishbone+Partners"
                     companyHeader="The home of beautiful architecture."
                 />
-                <FirmInfo />
-                <FirstExample />
+                <FirmInfo name="Stephen Collier" position="Senior Partner" />
+                <FirstExample productName="" productDescription="" />
                 <OurProcess />
                 <SecondExample />
                 <Clients />

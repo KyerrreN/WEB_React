@@ -4,6 +4,8 @@ import ProfilePic from "../../img/FirmInfo/IMAGE.svg";
 
 class FirmInfo extends Component {
     render() {
+        const { name, position } = this.props;
+
         return (
             <div className="container">
                 <div id="firm-frame" className="to-change-frame">
@@ -61,10 +63,10 @@ class FirmInfo extends Component {
 
                                 <div className="firm-content-desc-author-cred">
                                     <span className="firm-content-desc-author-cred-name to-change-text">
-                                        Stephen Collier
+                                        {name}
                                     </span>
                                     <span className="firm-content-desc-author-cred-position to-change-text">
-                                        Senior Partner
+                                        {position}
                                     </span>
                                 </div>
                             </div>
