@@ -9,6 +9,8 @@ import AriaStone from "../../img/Team/AriaStone.svg";
 
 class Team extends Component {
     render() {
+        const { teamNames } = this.props;
+
         return (
             <div className="container">
                 <div id="team-frame" className="to-change-frame">
@@ -40,7 +42,7 @@ class Team extends Component {
                                             className="team-content-people-frame-text-name to-change-text"
                                             id="team-content-people-frame-text-name-first"
                                         >
-                                            Stephen Collier
+                                            {teamNames[0]}
                                         </span>
                                         <span
                                             className="team-content-people-frame-text-position to-change-text"
@@ -59,7 +61,7 @@ class Team extends Component {
                                             className="team-content-people-frame-text-name to-change-text"
                                             id="team-content-people-frame-text-name-second"
                                         >
-                                            Ferris Wonder
+                                            {teamNames[1]}
                                         </span>
                                         <span
                                             className="team-content-people-frame-text-position to-change-text"
@@ -78,7 +80,7 @@ class Team extends Component {
                                             className="team-content-people-frame-text-name to-change-text"
                                             id="team-content-people-frame-text-name-third"
                                         >
-                                            Niko Ferry
+                                            {teamNames[2]}
                                         </span>
                                         <span
                                             className="team-content-people-frame-text-position to-change-text"
@@ -102,7 +104,7 @@ class Team extends Component {
                                             className="team-content-people-frame-text-name to-change-text"
                                             id="team-content-people-frame-text-name-fourth"
                                         >
-                                            Nolan Peters
+                                            {teamNames[3]}
                                         </span>
                                         <span
                                             className="team-content-people-frame-text-position to-change-text"
@@ -121,7 +123,7 @@ class Team extends Component {
                                             className="team-content-people-frame-text-name to-change-text"
                                             id="team-content-people-frame-text-name-fivth"
                                         >
-                                            Aria Stone
+                                            {teamNames[4]}
                                         </span>
                                         <span
                                             className="team-content-people-frame-text-position to-change-text"

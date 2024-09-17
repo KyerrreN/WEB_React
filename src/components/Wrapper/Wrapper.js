@@ -80,7 +80,10 @@ class Wrapper extends Component {
                     desc="Some of the latest and greatest projects from us here at Wishbone+Partners."
                 />
                 <Team teamNames={team} />
-                <AboveFooter />
+                <AboveFooter
+                    header="GET IN TOUCH"
+                    desc="Think we would be a good fit for your next project?"
+                />
                 <Footer />
             </div>
         );
