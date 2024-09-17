@@ -108,12 +108,6 @@
         max-width: 750px;
     }
     /* ---------------------------------------------------------------------------- */
-    /*                                  main */
-    /* ---------------------------------------------------------------------------- */
-    #main-picture {
-        display: none;
-    }
-    /* ---------------------------------------------------------------------------- */
     /*                                  firm */
     /* ---------------------------------------------------------------------------- */
     #firm-frame {
@@ -282,36 +276,6 @@
 @media (max-width: 767px) {
     .container {
         max-width: 420px;
-    }
-    /* ---------------------------------------------------------------------------- */
-    /*                                  main */
-    /* ---------------------------------------------------------------------------- */
-    .main-frame {
-        padding: 0;
-        margin: 0;
-        height: 590px;
-        display: flex;
-        justify-content: center;
-    }
-    .main-content {
-        max-width: 320px;
-        height: 1500px;
-        padding: 0;
-        padding-top: 10px;
-        margin: 0;
-        display: flex;
-        align-items: center;
-    }
-    .main-content-company {
-        text-align: center;
-    }
-    .main-content-header {
-        width: 100%;
-        font-size: 35px;
-        text-align: center;
-    }
-    .main-content-span {
-        width: 90%;
     }
 
     /* ---------------------------------------------------------------------------- */
