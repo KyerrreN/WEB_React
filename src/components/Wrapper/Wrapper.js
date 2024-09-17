@@ -12,6 +12,7 @@ import SecondExample from "../SecondExample/SecondExample.js";
 import Clients from "../Clients/Clients.js";
 import ThirdExample from "../ThirdExample/ThirdExample.js";
 import Projects from "../Projects/Projects.js";
+import Team from "../Team/Team.js";
 
 class Wrapper extends Component {
     render() {
@@ -29,6 +30,7 @@ class Wrapper extends Component {
                 <Clients />
                 <ThirdExample />
                 <Projects />
+                <Team />
             </div>
         );
     }
