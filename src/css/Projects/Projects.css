@@ -66,13 +66,13 @@
     flex-shrink: 0;
 }
 .projects-examples-first {
-    background-image: url(../Pictures/Projects/First.svg);
+    background-image: url(../../img/Projects/First.svg);
 }
 .projects-examples-second {
-    background-image: url(../Pictures/Projects/Second.svg);
+    background-image: url(../../img/Projects/Second.svg);
 }
 .projects-examples-third {
-    background-image: url(../Pictures/Projects/Third.svg);
+    background-image: url(../../img/Projects/Third.svg);
 }
 .projects-examples-second-header {
     width: 88px;
