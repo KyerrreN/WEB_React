@@ -39,6 +39,14 @@ class Wrapper extends Component {
             },
         ];
 
+        const team = [
+            "Stephen Collier",
+            "Ferris Wonder",
+            "Niko Ferry",
+            "Nolan Peters",
+            "Aria Stone",
+        ];
+
         return (
             <div className="wrapper">
                 <ModalWindow />
@@ -67,8 +75,11 @@ class Wrapper extends Component {
                     productName="THE SWIRLING STAIRCASE"
                     productDescription="Sculptural staircase, architectural statement piece."
                 />
-                <Projects />
-                <Team />
+                <Projects
+                    header="Featured projects"
+                    desc="Some of the latest and greatest projects from us here at Wishbone+Partners."
+                />
+                <Team teamNames={team} />
                 <AboveFooter />
                 <Footer />
             </div>

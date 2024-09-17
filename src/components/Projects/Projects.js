@@ -3,17 +3,18 @@ import "../Projects/Projects.css";
 
 class Projects extends Component {
     render() {
+        const { header, desc } = this.props;
+
         return (
             <div className="container">
                 <div id="projects-frame" className="to-change-frame">
                     <div className="projects-content">
                         <div className="projects-text">
                             <span className="projects-text-header to-change-text">
-                                Featured projects
+                                {header}
                             </span>
                             <span className="projects-text-desc to-change-text">
-                                Some of the latest and greatest projects from us
-                                here at Wishbone+Partners.
+                                {desc}
                             </span>
                         </div>
 
