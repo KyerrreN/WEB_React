@@ -6,6 +6,7 @@ import HamburgerMenu from "../HamburgerMenu/HamburgerMenu.js";
 import HamburgerNavigation from "../HamburgerNavigation/HamburgerNavigation.js";
 import Main from "../Main/Main.js";
 import FirmInfo from "../FirmInfo/FirmInfo.js";
+import FirstExample from "../FirstExample/FirstExample.js";
 
 class Wrapper extends Component {
     render() {
@@ -17,6 +18,7 @@ class Wrapper extends Component {
                 <Header />
                 <Main />
                 <FirmInfo />
+                <FirstExample />
             </div>
         );
     }
