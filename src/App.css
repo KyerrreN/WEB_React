@@ -6,23 +6,6 @@
         max-width: 1100px;
     }
     /* ---------------------------------------------------------------------------- */
-    /*                                  projects */
-    /* ---------------------------------------------------------------------------- */
-    #projects-frame {
-        height: 1340px;
-    }
-    .projects-examples {
-        left: 0;
-        justify-content: space-evenly;
-        flex-wrap: wrap;
-        width: 800px;
-        gap: 10px;
-    }
-    .projects-content-button {
-        top: 540px;
-        left: 320px;
-    }
-    /* ---------------------------------------------------------------------------- */
     /*                                  team */
     /* ---------------------------------------------------------------------------- */
     .team-content {
@@ -69,35 +52,6 @@
 @media (max-width: 992px) {
     .container {
         max-width: 750px;
-    }
-    /* ---------------------------------------------------------------------------- */
-    /*                                  projects */
-    /* ---------------------------------------------------------------------------- */
-    .projects-content {
-        top: 50px;
-        width: 600px;
-    }
-    #projects-frame {
-        height: 1700px;
-    }
-    .projects-examples {
-        width: 500px;
-    }
-    .projects-text-header {
-        width: 500px;
-        display: flex;
-        justify-content: center;
-    }
-    .projects-text-desc {
-        left: 0;
-        display: flex;
-        justify-content: center;
-        width: 500px;
-        text-align: center;
-    }
-    .projects-content-button {
-        top: 1000px;
-        left: 175px;
     }
     /* ---------------------------------------------------------------------------- */
     /*                                  team */
@@ -166,51 +120,6 @@
 @media (max-width: 767px) {
     .container {
         max-width: 420px;
-    }
-    /* ---------------------------------------------------------------------------- */
-    /*                                  projects */
-    /* ---------------------------------------------------------------------------- */
-    #projects-frame {
-        height: 1750px;
-        display: flex;
-        justify-content: center;
-    }
-    .projects-content {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        left: 10px;
-        width: 300px;
-    }
-    .projects-text {
-        width: 320px;
-        padding: 0;
-    }
-    .projects-text-header {
-        font-size: 30px;
-        justify-content: flex-start;
-    }
-    .projects-text-desc {
-        left: 15px;
-        width: 300px;
-        text-align: start;
-    }
-    .projects-examples {
-        left: 0;
-        width: 250px;
-    }
-    .projects-examples-pictures {
-        left: 0;
-        width: 240px;
-    }
-    .projects-examples-second {
-        background-position-x: 90%;
-    }
-    .projects-examples-third {
-        background-position-x: 90%;
-    }
-    .projects-content-button {
-        left: 0;
     }
     /* ---------------------------------------------------------------------------- */
     /*                                  team */
