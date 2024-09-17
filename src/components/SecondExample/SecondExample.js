@@ -3,16 +3,18 @@ import "../SecondExample/SecondExample.css";
 
 class SecondExample extends Component {
     render() {
+        const { productName, productDescription } = this.props;
+
         return (
             <div className="container">
                 <div className="second-example-frame">
                     <div className="second-example-content">
                         <span className="second-example-content-header">
-                            The marble staircase
+                            {productName}
                         </span>
 
                         <span className="second-example-content-text">
-                            Elegant marble staircase, architectural centerpiece.
+                            {productDescription}
                         </span>
                     </div>
                 </div>

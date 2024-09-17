@@ -3,16 +3,18 @@ import "../ThirdExample/ThirdExample.css";
 
 class ThirdExample extends Component {
     render() {
+        const { productName, productDescription } = this.props;
+
         return (
             <div className="container">
                 <div className="third-example-frame">
                     <div className="third-example-content">
                         <span className="third-example-content-header">
-                            The swirling staircase
+                            {productName}
                         </span>
 
                         <span className="third-example-content-text">
-                            Sculptural staircase, architectural statement piece.
+                            {productDescription}
                         </span>
                     </div>
                 </div>

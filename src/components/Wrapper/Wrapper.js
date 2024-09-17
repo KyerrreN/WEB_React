@@ -29,11 +29,20 @@ class Wrapper extends Component {
                     companyHeader="The home of beautiful architecture."
                 />
                 <FirmInfo name="Stephen Collier" position="Senior Partner" />
-                <FirstExample productName="" productDescription="" />
+                <FirstExample
+                    productName="REEDING HOUSE"
+                    productDescription="Modern, eco-friendly, minimalist design."
+                />
                 <OurProcess />
-                <SecondExample />
+                <SecondExample
+                    productName="THE MARBLE STAIRCASE"
+                    productDescription="Elegant marble staircase, architectural centerpiece."
+                />
                 <Clients />
-                <ThirdExample />
+                <ThirdExample
+                    productName="THE SWIRLING STAIRCASE"
+                    productDescription="Sculptural staircase, architectural statement piece."
+                />
                 <Projects />
                 <Team />
                 <AboveFooter />

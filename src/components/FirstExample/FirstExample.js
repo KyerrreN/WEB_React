@@ -3,15 +3,17 @@ import "../FirstExample/FirstExample.css";
 
 class FirstExample extends Component {
     render() {
+        const { productName, productDescription } = this.props;
+
         return (
             <div className="container">
                 <div className="first-example-frame">
                     <div className="first-example-content">
                         <span className="first-example-content-name">
-                            Reeding House
+                            {productName}
                         </span>
                         <span className="first-example-content-desc">
-                            Modern, eco-friendly, minimalist design.
+                            {productDescription}
                         </span>
                     </div>
                 </div>
