@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import Left from "../../img/OurProcess/Left.svg";
 import Middle from "../../img/OurProcess/Middle.svg";
 import Right from "../../img/OurProcess/Right.svg";
-import "../../css/OurProcess/OurProcess.css";
+import "../OurProcess/OurProcess.css";
 
 class OurProcess extends Component {
     render() {

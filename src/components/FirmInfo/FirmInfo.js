@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "../../css/FirmInfo/FirmInfo.css";
+import "../FirmInfo/FirmInfo.css";
 import ProfilePic from "../../img/FirmInfo/IMAGE.svg";
 
 class FirmInfo extends Component {

@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "../../css/Team/Team.css";
+import "../Team/Team.css";
 
 import StephenCollier from "../../img/Team/StephenCollier.svg";
 import FerrisWonder from "../../img/Team/FerrisWonder.svg";

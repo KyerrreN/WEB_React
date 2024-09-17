@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "../../css/Projects/Projects.css";
+import "../Projects/Projects.css";
 
 class Projects extends Component {
     render() {

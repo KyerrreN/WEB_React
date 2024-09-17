@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import ProfilePic from "../../img/Utilities/ProfilePic.svg";
 import Logo from "../../img/Header/IMAGE.svg";
-import "../../css/Header/Header.css";
+import "../Header/Header.css";
 
 class Header extends Component {
     render() {

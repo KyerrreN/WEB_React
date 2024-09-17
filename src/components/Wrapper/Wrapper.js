@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "../../css/Wrapper/Wrapper.css";
+import "../Wrapper/Wrapper.css";
 import Header from "../Header/Header.js";
 import ModalWindow from "../ModalWindow/ModalWindow.js";
 import HamburgerMenu from "../HamburgerMenu/HamburgerMenu.js";

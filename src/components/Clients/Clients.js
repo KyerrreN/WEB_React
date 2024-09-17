@@ -3,7 +3,7 @@ import HillPlayes from "../../img/Clients/HillPlayes.svg";
 import Riksgransen from "../../img/Clients/Riksgransen.svg";
 import StudioCai from "../../img/Clients/StudioCai.svg";
 import ChillIndustries from "../../img/Clients/ChillIndustries.svg";
-import "../../css/Clients/Clients.css";
+import "../Clients/Clients.css";
 
 class Clients extends Component {
     render() {

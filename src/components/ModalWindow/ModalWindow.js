@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "../../css/ModalWindow/ModalWindow.css";
+import "../ModalWindow/ModalWindow.css";
 
 class ModalWindow extends Component {
     render() {

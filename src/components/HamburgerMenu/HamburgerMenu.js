@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "../../css/HamburgerMenu/HamburgerMenu.css";
+import "../HamburgerMenu/HamburgerMenu.css";
 
 class HamburgerMenu extends Component {
     render() {
