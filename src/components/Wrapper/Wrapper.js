@@ -7,6 +7,7 @@ import HamburgerNavigation from "../HamburgerNavigation/HamburgerNavigation.js";
 import Main from "../Main/Main.js";
 import FirmInfo from "../FirmInfo/FirmInfo.js";
 import FirstExample from "../FirstExample/FirstExample.js";
+import OurProcess from "../OurProcess/OurProcess.js";
 
 class Wrapper extends Component {
     render() {
@@ -19,6 +20,7 @@ class Wrapper extends Component {
                 <Main />
                 <FirmInfo />
                 <FirstExample />
+                <OurProcess />
             </div>
         );
     }
