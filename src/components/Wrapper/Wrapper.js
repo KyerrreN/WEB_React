@@ -59,7 +59,10 @@ class Wrapper extends Component {
                     productName="THE MARBLE STAIRCASE"
                     productDescription="Elegant marble staircase, architectural centerpiece."
                 />
-                <Clients />
+                <Clients
+                    header="Happy customers."
+                    description="Wishbone's client-centric approach earns rave reviews. Customers laud the firm's collaborative spirit and ability to actualize architectural visions."
+                />
                 <ThirdExample
                     productName="THE SWIRLING STAIRCASE"
                     productDescription="Sculptural staircase, architectural statement piece."

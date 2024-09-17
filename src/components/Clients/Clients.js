@@ -7,6 +7,8 @@ import "../Clients/Clients.css";
 
 class Clients extends Component {
     render() {
+        const { header, description } = this.props;
+
         return (
             <div className="container">
                 <div className="clients-frame to-change-frame">
@@ -16,13 +18,10 @@ class Clients extends Component {
                                 prior clients
                             </span>
                             <span id="clients-content-desc-header">
-                                Happy customers.
+                                {header}
                             </span>
                             <span id="clients-content-desc-text">
-                                Wishbone's client-centric approach earns rave
-                                reviews. Customers laud the firm's collaborative
-                                spirit and ability to actualize architectural
-                                visions.
+                                {description}
                             </span>
                         </div>
 
