@@ -24,7 +24,10 @@ class Wrapper extends Component {
                 <HamburgerMenu />
                 <HamburgerNavigation />
                 <Header />
-                <Main />
+                <Main
+                    companyName="Wishbone+Partners"
+                    companyHeader="The home of beautiful architecture."
+                />
                 <FirmInfo />
                 <FirstExample />
                 <OurProcess />

@@ -3,15 +3,17 @@ import "../Main/Main.css";
 
 class Main extends Component {
     render() {
+        const { companyName, companyHeader } = this.props;
+
         return (
             <main className="container">
                 <div className="main-frame to-change-frame">
                     <div className="main-content">
                         <span className="main-content-company to-change-text">
-                            Wishbone+Partners
+                            {companyName}
                         </span>
                         <span className="main-content-header to-change-text">
-                            The home of beautiful architecture.
+                            {companyHeader}
                         </span>
                         <span className="main-content-span to-change-text">
                             We are an architecture firm with a focus on
