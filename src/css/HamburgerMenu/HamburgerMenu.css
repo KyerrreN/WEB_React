@@ -1,0 +1,46 @@
+/* ---------------------------------------------------------------------------- */
+/*                                  Медиа запросы */
+/* ---------------------------------------------------------------------------- */
+@media (max-width: 767px) {
+    /* ---------------------------------------------------------------------------- */
+    /*                                  hamburger menu */
+    /* ---------------------------------------------------------------------------- */
+    .off-screen-menu {
+        display: flex;
+    }
+}
+.off-screen-menu {
+    background-color: white;
+    height: 100vh;
+    width: 100%;
+    max-width: 300px;
+    position: fixed;
+    top: 0;
+    right: -400px;
+    z-index: 10;
+
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    font-size: 20px;
+    font-family: Poppins;
+    transition: 0.3s ease;
+}
+
+.off-screen-menu a {
+    text-decoration: none;
+    color: black;
+}
+.off-screen-menu a.header-content-nav-rectangle {
+    color: white;
+}
+.off-screen-menu.active {
+    right: 0;
+}
+#off-screen-menu-profile {
+    width: 40px;
+    height: 40px;
+}
