@@ -14,6 +14,7 @@ import ThirdExample from "../ThirdExample/ThirdExample.js";
 import Projects from "../Projects/Projects.js";
 import Team from "../Team/Team.js";
 import AboveFooter from "../AboveFooter/AboveFooter.js";
+import Footer from "../Footer/Footer.js";
 
 class Wrapper extends Component {
     render() {
@@ -33,6 +34,7 @@ class Wrapper extends Component {
                 <Projects />
                 <Team />
                 <AboveFooter />
+                <Footer />
             </div>
         );
     }

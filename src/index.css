@@ -11,3 +11,92 @@ code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
         monospace;
 }
+/*  ---------------------------------------------------------------
+                             animations 
+-------------------------------------------------------------------*/
+/* 3 */
+a {
+    transition: color 0.5s ease;
+}
+
+a:hover {
+    color: red !important;
+}
+
+/* 4 */
+.firm-content-desc-text {
+    background-image: linear-gradient(90deg, grey, rgb(150, 125, 125));
+    background-size: 100% 3px;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-size: 0% 3px;
+    transition: background-size 500ms ease-in-out;
+}
+
+.firm-content-desc-text:hover {
+    background-size: 100% 3px;
+}
+
+/* 5 */
+.projects-examples > div:hover {
+    filter: blur(2px);
+}
+
+/* 6 */
+button {
+    transition: transform 1s ease;
+}
+button:hover {
+    transform: scale(1.1);
+}
+
+/* 7 */
+.footer-content-text > img {
+    animation: footer-image-pulse 2s infinite;
+}
+
+@keyframes footer-image-pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.02);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+/* 8  */
+#main-picture {
+    transition: filter 0.5s ease;
+}
+#main-picture:hover {
+    filter: blur(2px);
+}
+
+/* 9 */
+.team-content-people-frame > img {
+    transition: transform 1s ease;
+}
+.team-content-people-frame > img:hover {
+    transform: scale(1.1);
+}
+
+/* 10 */
+.footer-content-socials > img,
+.footer-content-socials > a > img {
+    transition: transform 1s ease-out;
+}
+.footer-content-socials > img:hover,
+.footer-content-socials > a > img:hover {
+    transform: rotate(360deg);
+}
+
+/* 11 */
+.our-process-content-desc-frame > img {
+    transition: transform 0.5s ease;
+}
+.our-process-content-desc-frame > img:hover {
+    transform: scale(1.1);
+}
